@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+:root{
+    --btn-color: #E6533C;
+}
+.common-width{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+/* Header style start */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo h3{
+    color: var(--btn-color);
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    border: 1px solid hsla(0, 0%, 100%, 10%);
+    border-radius: 39px;
+}
+nav li{
+    list-style: none;
+    padding: 10px 0px;
+    margin: 5px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.125rem;
+    padding: 10px 20px;
+}
+nav ul{
+    color: var(--btn-color);
+}
+.home-link{
+    border: 1px solid hsl(0, 0%, 10%);
+    background-color: var(--btn-color);
+    border-radius: 39px;
+}
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-contents{
+    max-width: 450px;
+}
+.banner-contents h1{
+    font-weight: 900;
+    font-size: 4rem;
+    color: white;
+    padding: 20px 0;
+}
+.shape{
+    font-family: "Allura", cursive;
+}
+.banner-contents p{
+    font-size: 1rem;
+    color: hsl(0, 0%, 50%);
+}
+.banner-contents > button{
+    margin: 20px 0;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 42px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #fff;
+    
+}
+.banner-button-1{
+    background-color: var(--btn-color);
+}
+.banner-contents .banner-button-2{
+    background-color: transparent;
+    border: 2px solid white;
+}
+/* banner images */
+
+.banner-images{
+    position: relative;
+}
+.banner-images img{
+    height: 500px;
+}
+
+/* banner boxes */
+.banner-box-1, .banner-box-2{
+    width: 200px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 10%);
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+.banner-box-1{
+    position: absolute;
+    top: 200px;
+    right: -50px;
+    text-align: left;
+}
+.banner-box-2{
+    position: absolute;
+    bottom: 75px;
+    left: -100px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.banner-box-1 > p, .banner-box-2 > p{
+    font-size: 0.8125rem;
+    color: hsl(0, 0%, 65%);
+}
+.banner-ball{
+    height: 30px;
+    width: 30px;
+    background-color: var(--btn-color);
+    border-radius: 50%;
+   display: inline-block;
+   margin-right: 10px;
+}
+/* Header style end */
