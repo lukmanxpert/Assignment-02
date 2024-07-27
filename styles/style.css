@@ -187,3 +187,42 @@ nav ul{
     color: rgba(255, 255, 255, 0.5);
 }
 /* habits section style ends */
+/* run an extra mile style start */
+.run-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 20px 40px;
+    border-radius: 12px;
+    margin: 40px auto;
+}
+.run-desc{
+    max-width: 40%;
+}
+.run-desc h2{
+    font-size: 3rem;
+    padding: 20px 0;
+}
+.run-desc p{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.run-desc > a{
+    text-decoration: none;
+    background-color: var(--btn-color);
+    padding: 10px 20px;
+    border-radius: 42px;
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.run-images{
+    max-width: 40%;
+}
+.run-images > img{
+    max-width: 100%;
+    border-radius: 12px;
+}
+/* run an extra mile style ends */
