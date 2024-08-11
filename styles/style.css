@@ -1,90 +1,106 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white;
 }
 
-body{
+body {
     background-color: black;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-variation-settings:
-      "slnt" 0;
+        "slnt" 0;
 }
-:root{
+
+:root {
     --btn-color: #E6533C;
 }
-.common-width{
+
+.common-width {
     width: 85%;
     margin: 0 auto;
     padding: 20px 0;
 }
+
 /* Header style start */
 
-header nav{
+header nav {
     display: flex;
     justify-content: space-between;
 }
-nav .logo h3{
+
+nav .logo h3 {
     color: var(--btn-color);
     font-weight: 900;
     font-style: italic;
     font-size: 2rem;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
     border: 1px solid hsla(0, 0%, 100%, 10%);
     border-radius: 39px;
 }
-nav li{
+
+nav li {
     list-style: none;
     padding: 10px 0px;
     margin: 5px;
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.125rem;
     padding: 10px 20px;
 }
-nav ul{
+
+nav ul {
     color: var(--btn-color);
 }
-.home-link{
+
+.home-link {
     border: 1px solid hsl(0, 0%, 10%);
     background-color: var(--btn-color);
     border-radius: 39px;
 }
+
 /* banner styles */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     width: 50%;
 }
-.banner-contents{
+
+.banner-contents {
     max-width: 450px;
 }
-.banner-contents h1{
+
+.banner-contents h1 {
     font-weight: 900;
     font-size: 4rem;
     color: white;
     padding: 20px 0;
 }
-.shape{
+
+.shape {
     font-family: "Allura", cursive;
 }
-.banner-contents p{
+
+.banner-contents p {
     font-size: 1rem;
     color: hsl(0, 0%, 50%);
 }
-.banner-contents > button{
+
+.banner-contents>button {
     margin: 20px 0;
     padding: 15px 40px;
     border: none;
@@ -93,26 +109,31 @@ nav ul{
     font-weight: 600;
     font-size: 1.125rem;
     color: #fff;
-    
+
 }
-.banner-button-1{
+
+.banner-button-1 {
     background-color: var(--btn-color);
 }
-.banner-contents .banner-button-2{
+
+.banner-contents .banner-button-2 {
     background-color: transparent;
     border: 2px solid white;
 }
+
 /* banner images */
 
-.banner-images{
+.banner-images {
     position: relative;
 }
-.banner-images img{
+
+.banner-images img {
     height: 500px;
 }
 
 /* banner boxes */
-.banner-box-1, .banner-box-2{
+.banner-box-1,
+.banner-box-2 {
     width: 200px;
     padding: 20px;
     background-color: hsl(0, 0%, 10%);
@@ -120,13 +141,15 @@ nav ul{
     color: white;
     text-align: center;
 }
-.banner-box-1{
+
+.banner-box-1 {
     position: absolute;
     top: 200px;
     right: -50px;
     text-align: left;
 }
-.banner-box-2{
+
+.banner-box-2 {
     position: absolute;
     bottom: 75px;
     left: -100px;
@@ -134,17 +157,20 @@ nav ul{
     display: flex;
     align-items: center;
 }
-.banner-box-1 > p, .banner-box-2 > p{
+
+.banner-box-1>p,
+.banner-box-2>p {
     font-size: 0.8125rem;
     color: hsl(0, 0%, 65%);
 }
-.banner-ball{
+
+.banner-ball {
     height: 30px;
     width: 30px;
     background-color: var(--btn-color);
     border-radius: 50%;
-   display: inline-block;
-   margin-right: 10px;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 
@@ -152,43 +178,56 @@ nav ul{
 /* habits section style start */
 
 
-.habits-section{
+.habits-section {
     display: flex;
     flex-direction: column;
-    text-align: center;}
-.habits-desc{
+    text-align: center;
+}
+
+.habits-desc {
     padding: 30px 0;
     max-width: 600px;
     margin: 0 auto;
 }
-.habits-desc > h3{
+
+.habits-desc>h3 {
     font-size: 3rem;
 }
-.habits-desc > p{
+
+.habits-desc>p {
     color: hsl(0, 0%, 50%);
     font-size: 0.875rem;
     padding: 10px;
 }
-.habits-cards{
+
+.habits-cards {
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
 }
+
 /* habits cards style */
-.habits-card > img{
+.habits-card>img {
     border-radius: 50%;
     border: 3px solid rgba(255, 255, 255, 0.1);
 }
-.habits-img-desc > h4{
+
+.habits-img-desc>h4 {
     font-size: 1.125rem;
     font-weight: 600;
     padding: 20px 0 10px;
-}.habits-img-desc > p{
+}
+
+.habits-img-desc>p {
     color: rgba(255, 255, 255, 0.5);
 }
+
+
 /* habits section style ends */
 /* run an extra mile style start */
-.run-section{
+
+
+.run-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -197,18 +236,22 @@ nav ul{
     border-radius: 12px;
     margin: 40px auto;
 }
-.run-desc{
+
+.run-desc {
     max-width: 40%;
 }
-.run-desc h2{
+
+.run-desc h2 {
     font-size: 3rem;
     padding: 20px 0;
 }
-.run-desc p{
+
+.run-desc p {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
 }
-.run-desc > a{
+
+.run-desc>a {
     text-decoration: none;
     background-color: var(--btn-color);
     padding: 10px 20px;
@@ -218,11 +261,100 @@ nav ul{
     font-size: 1.125rem;
     font-weight: 600;
 }
-.run-images{
+
+.run-images {
     max-width: 40%;
 }
-.run-images > img{
+
+.run-images>img {
     max-width: 100%;
     border-radius: 12px;
 }
+
+
 /* run an extra mile style ends */
+/* galary section style start */
+
+
+.galary-headings p{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 500px;
+    margin: 50px 0;
+}
+.img-row-1, .img-row-2{
+    display: grid;
+}
+.img-row-1{
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.img-row-2{
+    grid-template-columns: 1.75fr 1fr 1.5fr;
+}
+.img-row-1 > div, .img-row-2 > div{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+.img-1{
+    background-image: linear-gradient(to right, rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url(../images/exercise1.jpg);
+    position: relative;
+}
+.img-1 .inside-img{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.img-2{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(../images/exercise2.png);
+    position: relative;
+}
+.img-2 .inside-img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.img-3{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/exercise3.png);
+    position: relative;
+}
+.img-3 .inside-img{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.img-4{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/exercise4.png);
+    position: relative;
+}
+.img-4 .inside-img{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.img-5{
+    background-image: linear-gradient(to right, rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url(../images/exercise5.jpg);
+    position: relative;
+}
+.img-5 .inside-img{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.img-6{
+    background-image: linear-gradient(to right, rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url(../images/exercise6.jpg);
+    position: relative;
+}
+.img-6 .inside-img{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.inside-img{
+    max-width: 200px;
+}
+.inside-img > p{
+    font-size: 0.875rem;
+}
+/* galary section style end */
