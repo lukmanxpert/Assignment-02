@@ -276,85 +276,231 @@ nav ul {
 /* galary section style start */
 
 
-.galary-headings p{
+.galary-headings p {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
     max-width: 500px;
     margin: 50px 0;
 }
-.img-row-1, .img-row-2{
+
+.img-row-1,
+.img-row-2 {
     display: grid;
 }
-.img-row-1{
+
+.img-row-1 {
     grid-template-columns: 1fr 2fr 1fr;
 }
-.img-row-2{
+
+.img-row-2 {
     grid-template-columns: 1.75fr 1fr 1.5fr;
 }
-.img-row-1 > div, .img-row-2 > div{
+
+.img-row-1>div,
+.img-row-2>div {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
 }
-.img-1{
+
+.img-1 {
     background-image: linear-gradient(to right, rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url(../images/exercise1.jpg);
     position: relative;
 }
-.img-1 .inside-img{
+
+.img-1 .inside-img {
     position: absolute;
     bottom: 20px;
     left: 20px;
 }
-.img-2{
+
+.img-2 {
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(../images/exercise2.png);
     position: relative;
 }
-.img-2 .inside-img{
+
+.img-2 .inside-img {
     position: absolute;
     top: 20px;
     left: 20px;
 }
-.img-3{
+
+.img-3 {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/exercise3.png);
     position: relative;
 }
-.img-3 .inside-img{
+
+.img-3 .inside-img {
     position: absolute;
     bottom: 20px;
     left: 20px;
 }
-.img-4{
+
+.img-4 {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/exercise4.png);
     position: relative;
 }
-.img-4 .inside-img{
+
+.img-4 .inside-img {
     position: absolute;
     top: 20px;
     right: 0;
 }
-.img-5{
+
+.img-5 {
     background-image: linear-gradient(to right, rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url(../images/exercise5.jpg);
     position: relative;
 }
-.img-5 .inside-img{
+
+.img-5 .inside-img {
     position: absolute;
     bottom: 20px;
     left: 20px;
 }
-.img-6{
+
+.img-6 {
     background-image: linear-gradient(to right, rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url(../images/exercise6.jpg);
     position: relative;
 }
-.img-6 .inside-img{
+
+.img-6 .inside-img {
     position: absolute;
     top: 20px;
     right: 0;
 }
-.inside-img{
+
+.inside-img {
     max-width: 200px;
 }
-.inside-img > p{
+
+.inside-img>p {
     font-size: 0.875rem;
 }
+
+
 /* galary section style end */
+
+/* BMI section starts */
+
+.bmi-calc-headings {
+    max-width: 650px;
+    margin: 50px auto;
+}
+
+.bmi-calc-headings h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0;
+}
+
+.bmi-calc-headings p {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* bmi calc */
+
+.bmi-calculator {
+    display: flex;
+    background-color: #222222;
+    padding-bottom: 40px;
+}
+
+.bmi-chart,
+.bmi-calc {
+    width: 50%;
+}
+
+.bmi-chart {
+    text-align: center;
+}
+
+.bmi-chart h3 {
+    padding: 30px 0;
+}
+
+.bmi-calc-desc {
+    padding: 30px 0;
+}
+
+.bmi-chart h3,
+.bmi-calc h3 {
+    font-size: 1.75rem;
+}
+
+.bmi-calc p {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px 20px 0 0;
+}
+.bmi-table{
+    display: flex;
+    justify-content: center;
+}
+.bmi-table table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+td,th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    line-height: 20px;
+}
+table th{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+table td{
+    font-size: 0.785rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+}
+/* bmi input section */
+.bmi-input{
+    color: rgba(255, 255, 255, 0.6);
+    padding-right: 60px;
+}
+.input-row-1{
+    display: flex;
+    justify-content: space-between;
+}
+#weight, #height{
+    width: 50%;
+}
+.input-row-2{
+    display: flex;
+    justify-content: space-between;
+}
+#age, #select{
+    width: 50%;
+}
+.input-row-3{
+    display: flex;
+    justify-content: space-between;
+}
+#select2{
+    width: 100%;
+}
+#height, #weight, #age, #select, #select2{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+#calculate{
+    background-color: var(--btn-color);
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 42px;
+    border: none;
+    margin: 10px 0;
+}
+/* BMI section ends */
