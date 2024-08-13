@@ -503,4 +503,77 @@ table td{
     border: none;
     margin: 10px 0;
 }
+
+
 /* BMI section ends */
+
+/* meet our team styles starts */
+
+.mot-desc{
+    text-align: center;
+}
+.mot-desc h3{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.mot-desc p{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 700px;
+    margin: 10px auto;
+    margin-bottom: 40px;
+}
+
+/* galary section */
+
+.mot-galary{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+}
+.mot-tr-1, .mot-tr-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mot-tr-1{
+    padding: 10px 10px 0 10px;
+}
+.mot-tr-2{
+    padding: 0 10px 10px 10px;
+}
+.mot-img-1, .mot-img-2, .mot-img-3, .mot-img-4, .mot-img-5, .mot-img-6{
+    height: 300px;
+    width: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 18px;
+    position: relative;
+}
+.mot-img-1 h5, .mot-img-2 h5, .mot-img-3 h5, .mot-img-4 h5, .mot-img-5 h5, .mot-img-6 h5{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.mot-img-1{
+    background-image: url(../images/trainer1.png);
+}
+.mot-img-2{
+    background-image: url(../images/trainer2.png);
+}
+.mot-img-3{
+    background-image: url(../images/trainer3.png);
+}
+.mot-img-4{
+    background-image: url(../images/trainer4.png);
+}
+.mot-img-5{
+    background-image: url(../images/trainer5.png);
+}
+.mot-img-6{
+    background-image: url(../images/trainer6.png);
+}
+/* meet our team styles ends */
