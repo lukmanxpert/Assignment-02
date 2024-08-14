@@ -878,4 +878,18 @@ table td {
     .mot-img-6{
         width: auto;
     }
+    /* contact information start */
+
+    .contact-section .contact-main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact-info{
+        margin-bottom: 20px;
+    }
+    /* footer section start */
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
