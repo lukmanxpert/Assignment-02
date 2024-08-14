@@ -69,6 +69,10 @@ nav ul {
     border-radius: 39px;
 }
 
+/* bars styles */
+.bars{
+    display: none;
+}
 /* banner styles */
 
 .banner {
@@ -282,7 +286,9 @@ nav ul {
     max-width: 500px;
     margin: 50px 0;
 }
-
+.galary-head{
+    display: none;
+}
 .img-row-1,
 .img-row-2 {
     display: grid;
@@ -676,3 +682,76 @@ table td{
 }
 
 /* footer styles ends */
+
+/* responsive styles starts */
+@media screen and (max-width: 576px) {
+    /* nav bar styles */
+    .nav-links{
+        display: none;
+    }
+    .bars{
+        display: block;
+        padding: 12px 0;
+    }
+    /* banner style */
+    .banner{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+    }
+
+    /* banner images syles */
+    .banner-images{
+        text-align: center;
+    }
+    .banner-images > .banner-box-1{
+        top: 160px;
+        right: 20px;
+    }
+    .banner-images > .banner-box-2{
+        bottom: 60px;
+        left: 20px;
+    }
+
+    /* change your habit section */
+    .habits-cards{
+        flex-direction: column;
+    }
+
+    /* run an extra mile section */
+    .run-section{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .run-desc{
+        max-width: 100%;
+    }
+    .run-desc > a{
+        display: block;
+        text-align: center;
+    }
+    .run-images{
+        max-width: 100%;
+    }
+
+    /* galary section */
+    .galary-head{
+        display: block;
+    }
+    .galary-head > h2{
+        font-size: 2rem;
+    }
+    .galary-headings > p{
+        margin: 10px auto 40px;
+    }
+    .img-row-1 .img-3, .img-row-2 .img-6{
+        display: none;
+    }
+    .img-row-1{
+        grid-template-columns: 1.1fr 0.9fr;
+    }
+    .img-row-2{
+        grid-template-columns: 0.9fr 1.1fr;
+    }
+}
