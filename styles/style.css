@@ -592,20 +592,18 @@ table td {
     border-radius: 18px;
     position: relative;
 }
-
-.mot-img-1 h5,
-.mot-img-2 h5,
-.mot-img-3 h5,
-.mot-img-4 h5,
-.mot-img-5 h5,
-.mot-img-6 h5 {
+.mot-img-1-desc, .mot-img-2-desc, .mot-img-3-desc, .mot-img-4-desc, .mot-img-5-desc, .mot-img-6-desc{
     position: absolute;
     left: 20px;
     bottom: 20px;
     font-size: 1.25rem;
     font-weight: 700;
 }
-
+.mot-img-1-desc > p, .mot-img-2-desc > p, .mot-img-3-desc > p, .mot-img-4-desc > p, .mot-img-5-desc > p, .mot-img-6-desc > p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
 .mot-img-1 {
     background-image: url(../images/trainer1.png);
 }
