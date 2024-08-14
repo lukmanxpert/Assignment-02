@@ -577,6 +577,54 @@ table td{
     background-image: url(../images/trainer6.png);
 }
 
+/* contact section style starts */
+.contact-section{
+    margin: 20px auto;
+}
+.contact-section .contact-main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 20px auto;
+}
+.contact-headings h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+.contact-iframe > iframe{
+    width: 100%;
+    height: 250px;
+    border-radius: 12px;
+}
+.contact-info{
+    text-align: left;
+    margin-left: 50px;
+}
+.contact-info h2{
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.contact-info .cm-fitness{
+    color: var(--btn-color);
+    font-style: italic;
+    font-size: 1rem;
+}
+.contact-info > p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+}
+.contact-info > address{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+}
+.contact-info h5{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+/* contact section style ends */
+
 
 /* meet our team styles ends */
 
