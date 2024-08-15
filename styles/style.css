@@ -281,17 +281,15 @@ nav ul {
 /* galary section style start */
 
 
+.galary-head h2 {
+    font-size: 2.5rem;
+}
 .galary-headings p {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
     max-width: 500px;
-    margin: 50px 0;
+    margin: 10px 0 50px;
 }
-
-.galary-head {
-    display: none;
-}
-
 .img-row-1,
 .img-row-2 {
     display: grid;
