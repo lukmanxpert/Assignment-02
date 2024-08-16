@@ -178,6 +178,9 @@ nav ul {
     margin-right: 10px;
 }
 
+.banner-play {
+    display: none;
+}
 
 /* Header style end */
 /* habits section style start */
@@ -284,12 +287,14 @@ nav ul {
 .galary-head h2 {
     font-size: 2.5rem;
 }
+
 .galary-headings p {
     font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
     max-width: 500px;
     margin: 10px 0 50px;
 }
+
 .img-row-1,
 .img-row-2 {
     display: grid;
@@ -590,18 +595,31 @@ table td {
     border-radius: 18px;
     position: relative;
 }
-.mot-img-1-desc, .mot-img-2-desc, .mot-img-3-desc, .mot-img-4-desc, .mot-img-5-desc, .mot-img-6-desc{
+
+.mot-img-1-desc,
+.mot-img-2-desc,
+.mot-img-3-desc,
+.mot-img-4-desc,
+.mot-img-5-desc,
+.mot-img-6-desc {
     position: absolute;
     left: 20px;
     bottom: 20px;
     font-size: 1.25rem;
     font-weight: 700;
 }
-.mot-img-1-desc > p, .mot-img-2-desc > p, .mot-img-3-desc > p, .mot-img-4-desc > p, .mot-img-5-desc > p, .mot-img-6-desc > p{
+
+.mot-img-1-desc>p,
+.mot-img-2-desc>p,
+.mot-img-3-desc>p,
+.mot-img-4-desc>p,
+.mot-img-5-desc>p,
+.mot-img-6-desc>p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.875rem;
     font-weight: 500;
 }
+
 .mot-img-1 {
     background-image: url(../images/trainer1.png);
 }
@@ -770,6 +788,20 @@ table td {
         width: 100%;
     }
 
+    .banner-ball {
+        display: none;
+    }
+
+    .banner-play {
+        display: block;
+    }
+
+    .banner-play>i {
+        color: var(--btn-color);
+        margin-right: 10px;
+        font-size: 2rem;
+    }
+
     /* banner images syles */
     .banner-images {
         text-align: center;
@@ -859,7 +891,9 @@ table td {
     .bmi-input {
         padding: 0 20px;
     }
-
+    .bmi-calc p {
+        text-align: center;
+    }
     /* meet our team section */
     .mot-tr-1,
     .mot-tr-2 {
@@ -871,20 +905,23 @@ table td {
     .mot-img-3,
     .mot-img-4,
     .mot-img-5,
-    .mot-img-6{
+    .mot-img-6 {
         width: auto;
     }
+
     /* contact information start */
 
-    .contact-section .contact-main{
+    .contact-section .contact-main {
         display: flex;
         flex-direction: column-reverse;
     }
-    .contact-info{
+
+    .contact-info {
         margin-bottom: 20px;
     }
+
     /* footer section start */
-    .footer{
+    .footer {
         display: flex;
         flex-direction: column;
     }
